@@ -133,8 +133,7 @@ const initialProducts = [
       "Storage: 512GB UFS 4.0",
       "Camera: 200MP main, 10MP telephoto, 10MP ultrawide",
       "Battery: 5000mAh, 45W fast charging",
-      "Colour Shown: Phantom Black",
-      "Style: SM-S928U"
+      "Colour Shown: Phantom Black"
     ],
     cart_desc: "Feature-rich smartphone with great camera.",
     price: ["6,999"],
