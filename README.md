@@ -1,3 +1,6 @@
+ 📢 **Important:**  
+ This project must be opened with **Live Server** or any local web server.
+
 # GenAI Shop – E-Commerce Web App
 
 ## 🛍️ Overview
