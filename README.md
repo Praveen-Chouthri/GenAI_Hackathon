@@ -30,7 +30,7 @@ GenAI_Hackathon/
 │   ├── hat.png
 │   ├── ...etc
 ├── Day-15 Generative AI hackathon.pdf  # Hackathon instructions
-└── GenAI_Shop_Project_Report.pdf       # Project report (to be added)
+└── GenAI_Shop_Project_Report.pdf       # Project report
 ```
 - **index.html**: Loads all scripts and styles, root for the React app.
 - **style.css**: Contains custom styles, modal animations, and overrides for Bootstrap/Tailwind.
@@ -38,7 +38,7 @@ GenAI_Hackathon/
 - **images/**: Local images for products, branding, and UI elements.
 - **README.md**: Documentation, setup, and changelog.
 - **Day-15 Generative AI hackathon.pdf**: Original hackathon problem statement and requirements.
-- **GenAI_Shop_Project_Report.pdf**: Project report (comparison, bug fixes, enhancements, etc.; to be added).
+- **GenAI_Shop_Project_Report.pdf**: Project report (comparison, bug fixes, enhancements, etc.).
 
 ## 🐞 Major Bugs Fixed
 - Cart persistence and localStorage sync issues resolved.
