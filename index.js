@@ -15,7 +15,7 @@ const initialProducts = [
     ],
     cart_desc: "Men's running shoes with responsive cushioning and a stable ride.",
     price: ["200"],
-    image: "/images/shoes.png",
+    image: "images/shoes.png",
     tags: ["New", "Popular"]
   },
   {
@@ -32,7 +32,7 @@ const initialProducts = [
     ],
     cart_desc: "A cool hat for fiery sports.",
     price: ["190"],
-    image: "/images/hat.png",
+    image: "images/hat.png",
     tags: ["Sale"]
   },
   {
@@ -50,7 +50,7 @@ const initialProducts = [
     ],
     cart_desc: "Classic wrist watch for all occasions.",
     price: ["1,000"],
-    image: "/images/watch.png",
+    image: "images/watch.png",
     tags: ["Trending"]
   },
   {
@@ -68,7 +68,7 @@ const initialProducts = [
     ],
     cart_desc: "Spacious backpack for travel and daily use.",
     price: ["699"],
-    image: "/images/backpack.png",
+    image: "images/backpack.png",
     tags: ["New"]
   },
   {
@@ -84,7 +84,7 @@ const initialProducts = [
     ],
     cart_desc: "Stylish sunglasses with UV protection.",
     price: ["399"],
-    image: "/images/sunglasses.png",
+    image: "images/sunglasses.png",
     tags: ["Popular"]
   },
   {
@@ -101,7 +101,7 @@ const initialProducts = [
     ],
     cart_desc: "Comfortable cotton t-shirt.",
     price: ["259"],
-    image: "/images/t-shirt.png",
+    image: "images/t-shirt.png",
     tags: ["Sale"]
   },
   {
@@ -120,7 +120,7 @@ const initialProducts = [
     ],
     cart_desc: "Powerful laptop for work and play.",
     price: ["89,999"],
-    image: "/images/laptop.png",
+    image: "images/laptop.png",
     tags: ["Trending"]
   },
   {
@@ -138,7 +138,7 @@ const initialProducts = [
     ],
     cart_desc: "Feature-rich smartphone with great camera.",
     price: ["6,999"],
-    image: "/images/smartphone.png",
+    image: "images/smartphone.png",
     tags: ["New"]
   },
   {
@@ -155,7 +155,7 @@ const initialProducts = [
     ],
     cart_desc: "DSLR camera for stunning photos.",
     price: ["49,999"],
-    image: "/images/camera.png",
+    image: "images/camera.png",
     tags: ["Popular"],
     imageFit: "contain"
   },
@@ -173,7 +173,7 @@ const initialProducts = [
     ],
     cart_desc: "Wireless headphones with noise cancellation.",
     price: ["1,499"],
-    image: "/images/headphones.png",
+    image: "images/headphones.png",
     tags: ["Sale"]
   },
   // New sample product 1
@@ -193,7 +193,7 @@ const initialProducts = [
     ,
     cart_desc: "Ceramic mug for hot and cold drinks.",
     price: ["149"],
-    image: "/images/coffee-mug.png",
+    image: "images/coffee-mug.png",
     tags: ["Gift", "Popular"]
   },
   // New sample product 2
@@ -212,7 +212,7 @@ const initialProducts = [
     ],
     cart_desc: "Portable Bluetooth speaker with deep bass.",
     price: ["2,499"],
-    image: "/images/bluetooth-speaker.png",
+    image: "images/bluetooth-speaker.png",
     tags: ["Trending", "New"],
     
   },
@@ -441,7 +441,7 @@ function CartIcon({ count, onClick }) {
         onClick={onClick}
         aria-label="View cart"
       >
-        <img src="/images/cart-icon.png" alt="Cart" style={{ width: 64, height: 64, objectFit: 'contain', display: 'block', borderRadius: '50%' }} />
+        <img src="images/cart-icon.png" alt="Cart" style={{ width: 64, height: 64, objectFit: 'contain', display: 'block', borderRadius: '50%' }} />
         {count > 0 && (
           <span
             className="position-absolute bg-danger d-flex align-items-center justify-content-center"
@@ -650,7 +650,7 @@ function CartModal({ cart, onClose, setCart, onOrderSuccess }) {
             {/* Row below cart items: left image, right payment details */}
             <div className="flex flex-row w-full mt-8 gap-6">
               <div className="flex-1 flex items-end justify-start overflow-hidden rounded-lg border border-gray-200 bg-gray-50">
-                <img src="/images/transaction.png" alt="Decorative" className="w-full h-full object-cover" />
+                <img src="images/transaction.png" alt="Decorative" className="w-full h-full object-cover" />
               </div>
               <div className="flex-1 max-w-md ml-auto space-y-4 text-sm text-gray-900">
                 <div className="flex justify-between border-b border-gray-300 pb-2">
@@ -662,7 +662,7 @@ function CartModal({ cart, onClose, setCart, onOrderSuccess }) {
                   <span>₹{salesTax.toLocaleString()}</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-300 pb-2 items-center">
-                  <span className="font-semibold">Shipping:</span>
+                  <span className="font-semibold">Shipping (5%):</span>
                   <span>{shipping === 0 ? 'Free' : `₹${shipping.toLocaleString()}`}</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-300 pb-2 text-lg font-extrabold">
