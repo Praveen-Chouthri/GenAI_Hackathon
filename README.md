@@ -2,7 +2,7 @@
 This project must be opened with **Live Server** or any local web server or using below URL.  
 <br>
 🚀 **Live Site:**  
-https://gen-ai-hackathon-pc.vercel.app/
+[Shop here 🛒](https://gen-ai-hackathon-pc.vercel.app/)
 
 # GenAI Shop – E-Commerce Web App
 
