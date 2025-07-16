@@ -1,5 +1,5 @@
  📢 **Important:**  
- This project must be opened with **Live Server** or any local web server.
+ This project must be opened with **Live Server** or any local web server or using url https://gen-ai-hackathon-pc.vercel.app/
 
 # GenAI Shop – E-Commerce Web App
 
